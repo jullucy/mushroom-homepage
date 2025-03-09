@@ -4,6 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mushrooms - A Fascinating World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #5c3d2e;
+            color: white;
+            padding: 20px;
+        }
+        section, article {
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #5c3d2e;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #8b5a2b;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #8b5a2b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #5c3d2e;
+        }
+        footer {
+            background-color: #5c3d2e;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -119,9 +178,10 @@
         <h2>Clickable Map - Mushroom Habitats</h2>
         <img src="forest_map.jpg" usemap="#mushroommap" alt="Mushroom habitats map" width="600">
         <map name="mushroommap">
-            <area shape="rect" coords="10,10,100,100" href="#" alt="Coniferous forest">
-            <area shape="circle" coords="150,150,50" href="#" alt="Mixed forest">
-            <area shape="poly" coords="200,200,250,250,200,300" href="#" alt="Meadow">
+            <area shape="rect" coords="10,10,100,100" href="https://en.wikipedia.org/wiki/Coniferous_forest" alt="Coniferous forest">
+            <area shape="circle" coords="150,150,50" href="https://en.wikipedia.org/wiki/Mixed_forest" alt="Mixed forest">
+            <area shape="poly" coords="200,200,250,250,200,300" href="https://en.wikipedia.org/wiki/Meadow" alt="Meadow">
+            <area shape="rect" coords="300,50,400,150" href="https://en.wikipedia.org/wiki/Deciduous_forest" alt="Deciduous forest">
         </map>
     </section>
     
