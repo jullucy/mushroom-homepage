@@ -1,42 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushrooms - A Fascinating World</title>
+</head>
 <body>
-<h1>Popular edible mushrooms</h1>
-<p>In the fall, as temperatures begin to drop, pumpkins and squash take all the glory, but let's not forget about edible mushrooms, the ever-versatile bumper crop! While mushrooms can be found year-round, many varieties peak during the fall and winter. And with the average American consuming more than two pounds of edible mushrooms each year, we wanted to take a closer look at the top varieties.</p>
-<img src="mushroom.png">
-<table>
-  <caption>
-    Top 4 mushrooms acording to my grandma
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">Mushroom</th>
-      <th scope="col">Taste</th>
-      <th scope="col">Score</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Penny Bun</th>
-      <td>Simillar to chicken with honey, very delicate</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <th scope="row">Shimeji mushrooms</th>
-      <td>A little bit weird, but remarkable</td>
-      <td>90</td>
-    </tr>
-    <tr>
-      <th scope="row">Bolete mushrooms</th>
-      <td>Good, but grandma didn't remember how it taste</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th scope="row">Morels</th>
-      <td>Sweet and spicy</td>
-      <td>65</td>
-    </tr>
-  </tbody>
-</table>
+    <header>
+        <h1>Welcome to the world of mushrooms!</h1>
+    </header>
+    
+    <article>
+        <h2>About Mushrooms</h2>
+        <p>Mushrooms are extraordinary organisms that play a crucial role in ecosystems. They are neither plants nor animals but form their own kingdom.</p>
+    </article>
+
+    <p>In the fall, as temperatures begin to drop, pumpkins and squash take all the glory, but let's not forget about edible mushrooms, the ever-versatile bumper crop! While mushrooms can be found year-round, many varieties peak during the fall and winter. And with the average American consuming more than two pounds of edible mushrooms each year, we wanted to take a closer look at the top varieties.</p>
+    <img src="mushroom.png">
+    
+    <section>
+        <h2>Types of Mushrooms</h2>
+        <table border="1">
+            <caption>Popular Mushroom Species</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Edible</th>
+                    <th>Habitat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Porcini</td>
+                    <td>Yes</td>
+                    <td>Coniferous forest</td>
+                </tr>
+                <tr>
+                    <td>Fly Agaric</td>
+                    <td>No</td>
+                    <td>Mixed forest</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>How to Identify Mushrooms?</h2>
+        <ol type="I">
+            <li>Observe the cap shape</li>
+            <li>Check the gill color</li>
+            <li>Note the habitat</li>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Mushroom Image</h2>
+        <img src="mushroom.jpg" alt="Example mushroom" width="300">
+    </section>
+    
+    <section>
+        <h2>Findings Report Form</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="mushroom">Mushroom Type:</label>
+            <select id="mushroom" name="mushroom">
+                <optgroup label="Edible">
+                    <option value="porcini">Porcini</option>
+                    <option value="chanterelle">Chanterelle</option>
+                </optgroup>
+                <optgroup label="Poisonous">
+                    <option value="fly_agaric">Fly Agaric</option>
+                    <option value="death_cap">Death Cap</option>
+                </optgroup>
+            </select><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Interesting Mushroom Facts</h2>
+        <details>
+            <summary>Click to reveal a fun fact</summary>
+            <p>The largest organism in the world is the Armillaria ostoyae fungus, covering over 9 km²!</p>
+        </details>
+    </section>
+    
+    <section>
+        <h2>Scientific Progress on Mushrooms</h2>
+        <progress value="50" max="100"></progress>
+    </section>
+    
+    <section>
+        <h2>Clickable Map - Mushroom Habitats</h2>
+        <img src="forest_map.jpg" usemap="#mushroommap" alt="Mushroom habitats map">
+        <map name="mushroommap">
+            <area shape="rect" coords="10,10,100,100" href="#" alt="Coniferous forest">
+            <area shape="circle" coords="150,150,50" href="#" alt="Mixed forest">
+            <area shape="poly" coords="200,200,250,250,200,300" href="#" alt="Meadow">
+        </map>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Mushroom World. All rights reserved.</p>
+    </footer>
 </body>
 </html>
