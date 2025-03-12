@@ -18,6 +18,13 @@
             color: white;
             padding: 20px;
         }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+            width: 100%;
+        }
         section, article {
             margin: 20px auto;
             padding: 20px;
@@ -89,7 +96,7 @@
         <img src="mushroom.png">
     </article>
     
-    <section>
+    <section class="hidden-on-small">
         <h2>Types of Mushrooms</h2>
         <table border="1">
             <caption>Popular Mushroom Species</caption>
