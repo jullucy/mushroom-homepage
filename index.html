@@ -82,6 +82,18 @@
                 display: none;
             }
         }
+        .justify-left {
+            justify-content: flex-start;
+        }
+        .justify-right {
+            justify-content: flex-end;
+        }
+        .justify-center {
+            justify-content: center;
+        }
+        .justify-space-between {
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
@@ -95,42 +107,43 @@
         <p>In the fall, as temperatures begin to drop, pumpkins and squash take all the glory, but let's not forget about edible mushrooms, the ever-versatile bumper crop! While mushrooms can be found year-round, many varieties peak during the fall and winter. And with the average American consuming more than two pounds of edible mushrooms each year, we wanted to take a closer look at the top varieties.</p>
         <img src="mushroom.png">
     </article>
-    
-    <section class="hidden-on-small">
-        <h2>Types of Mushrooms</h2>
-        <table border="1">
-            <caption>Popular Mushroom Species</caption>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Edible</th>
-                    <th>Habitat</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Porcini</td>
-                    <td>Yes</td>
-                    <td>Coniferous forest</td>
-                </tr>
-                <tr>
-                    <td>Fly Agaric</td>
-                    <td>No</td>
-                    <td>Mixed forest</td>
-                </tr>
-                <tr>
-                    <td>Chanterelle</td>
-                    <td>Yes</td>
-                    <td>Deciduous forest</td>
-                </tr>
-                <tr>
-                    <td>Death Cap</td>
-                    <td>No</td>
-                    <td>Woodlands</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+
+    <div class="container justify-left">
+        <section class="hidden-on-small">
+            <h2>Types of Mushrooms</h2>
+            <table border="1">
+                <caption>Popular Mushroom Species</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Edible</th>
+                        <th>Habitat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Porcini</td>
+                        <td>Yes</td>
+                        <td>Coniferous forest</td>
+                    </tr>
+                    <tr>
+                        <td>Fly Agaric</td>
+                        <td>No</td>
+                        <td>Mixed forest</td>
+                    </tr>
+                    <tr>
+                        <td>Chanterelle</td>
+                        <td>Yes</td>
+                        <td>Deciduous forest</td>
+                    </tr>
+                    <tr>
+                        <td>Death Cap</td>
+                        <td>No</td>
+                        <td>Woodlands</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     
     <section>
         <h2>How to Identify Mushrooms?</h2>
