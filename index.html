@@ -26,6 +26,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 80%;
         }
+        section:hover, article:hover {
+            background-color: #ffe5b4
+        }
+        @media (min-width: 801px) {
+            section:hover, article:hover {
+                background-color: #ffe5b4
+            }
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -62,13 +70,18 @@
             padding: 10px;
             margin-top: 20px;
         }
+        @media (max-width: 800px) {
+            .hidden-on-small {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Welcome to the world of mushrooms!</h1>
     </header>
-    
+
     <article>
         <h2>About Mushrooms</h2>
         <p>Mushrooms are extraordinary organisms that play a crucial role in ecosystems. They are neither plants nor animals but form their own kingdom.</p>
